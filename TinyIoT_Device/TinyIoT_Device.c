@@ -201,13 +201,13 @@ void handle_request(struct http_request_s* request) {
   	    }
   	    else{
   		    while(fgets(line,VALUE,fd)!=NULL){
-                p=strstr(line,"use-ipv4=yes");
-                if(p!=NULL){
-                    find_pos=strlen(line) - (p-line) + 1;
-                    fseek(fd, (-1)*find_pos, SEEK_CUR);
-                    fwrite(mode_no_broadcast,sizeof(mode_no_broadcast),1,fd);
-                    fseek(fd,find_pos - sizeof(mode_no_broadcast), SEEK_CUR);
-                }
+                	p=strstr(line,"use-ipv4=yes");
+                	if(p!=NULL){
+                    	find_pos=strlen(line) - (p-line) + 1;
+                    	fseek(fd, (-1)*find_pos, SEEK_CUR);
+                    	fwrite(mode_no_broadcast,sizeof(mode_no_broadcast),1,fd);
+                    	fseek(fd,find_pos - sizeof(mode_no_broadcast), SEEK_CUR);
+                	}
             }
         fclose(fd);
         }
