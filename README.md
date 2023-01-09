@@ -7,11 +7,11 @@
   App and Device provide only simple request and response.
   
   ## Hard-Coding
-    ### URL
-    ### File Path
-    ### Authentication key
-    ### Authentication header name
-    Make sure to modify it according to the environment.
+  ### URL
+  ### File Path
+  ### Authentication key
+  ### Authentication header name
+  Make sure to modify it according to the environment.
     
   
   
