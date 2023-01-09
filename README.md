@@ -12,27 +12,35 @@
   sudo apt-get install build-essential pkg-config libglib2.0-dev libevent-dev qtbase5-dev libgtk-3-dev libgdbm-dev libdaemon-dev python-gi-dev mono-mcs monodoc-http libtool libnss-mdns libcurl4-gnutls-dev
   ```
   
-  ## Compile
+  
+  ## Compile and install
   
   ```
   cd avahi-0.8
   ```
   
+  
   ```
   ./configure
   ```
+  
   
   ```
   make
   ```
   
+  
   ```
   make install
   ```
   
+  
+  ## Start avahi-daemon
   ```
   service avahi-daemon start
   ```
+  
+  
   
   Please Set avahi-daemon.conf (cd /etc/avahi)
   
