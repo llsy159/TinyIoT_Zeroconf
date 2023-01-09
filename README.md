@@ -1,8 +1,12 @@
 # TinyIoT_Zeroconf
 
+  Server is a demo version.
+
   Test whether the server can perform the Zeroconf registration.
   
   App and Device provide only simple request and response.
+  
+  
   
 # TinyIoT_Server
 
@@ -46,6 +50,12 @@
   Please Set avahi-daemon.conf (cd /etc/avahi)
   
   use-ipv6=yes -> use-ipv6=no
+  
+ # TinyIoT Device
+ 
+  ##Make Service
+  
+  see https://linux.die.net/man/5/avahi.service
  
 
 # TinyIoT_Zeroconf Demo Link
