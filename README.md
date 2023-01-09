@@ -55,7 +55,7 @@
  
   ## Make Service
   
-  see https://linux.die.net/man/5/avahi.service https://wiki.archlinux.org/title/avahi
+  see https://linux.die.net/man/5/avahi.service, https://wiki.archlinux.org/title/avahi
  
 
 # TinyIoT_Zeroconf Demo Link
